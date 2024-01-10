@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-               git credentialsId: '92c2553d-2beb-4b17-b634-2e868d50bcdd', url: 'https://github.com/devildevops2019/code.git'
+              git credentialsId: '92c2553d-2beb-4b17-b634-2e868d50bcdd', url: 'https://github.com/devildevops2019/code.git'
             }
         }
 }
